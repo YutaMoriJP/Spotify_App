@@ -2,7 +2,7 @@ const authURL = 'https://accounts.spotify.com/authorize';
 
 const clientID = '2c7815cd90bf4c358ce9705b44a7206b';
 
-const redirectURL = 'http://localhost:1234/';
+const redirectURL = 'https://clever-elion-7f8dbb.netlify.app/';
 
 const fetchURL = 'https://api.spotify.com/v1/search';
 
