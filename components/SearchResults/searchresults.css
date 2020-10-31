@@ -1,0 +1,38 @@
+.resultbox {
+    width: 50%;
+    background: #00c3e3;
+    color: white;
+    height: auto;
+}
+
+.resultbox h1 {
+    font-size: 2rem;
+}
+.detailLayout {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.resultdetail{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.addIcon {
+    width: 50%;
+    text-align: right;
+}
+
+.addIcon h2 {
+    position: relative;
+    top: 25%;
+    cursor: pointer;
+}
+
+.addIcon h2:hover {
+    color: black;
+}

@@ -1,0 +1,32 @@
+.searchForm {
+    margin-top: 10px;
+}
+input {
+    padding: 20px;
+    margin: auto;
+    font-size:1.5rem;
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=text] {
+    width: 400px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    background: darkgreen;
+    color: white;
+    width: 200px;
+    max-width: auto;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+button:hover {
+    background: lightgreen;
+}

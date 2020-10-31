@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #08e1ae;
+    background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav {
+    color: white;
+    padding: 20px;
+    background: green;
+}
+.searchbar {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.results {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.searchForm {
+    margin-top: 10px;
+}
+input {
+    padding: 20px;
+    margin: auto;
+    font-size:1.5rem;
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=text] {
+    width: 400px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    background: darkgreen;
+    color: white;
+    width: 200px;
+    max-width: auto;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+button:hover {
+    background: lightgreen;
+}
+.resultbox {
+    width: 50%;
+    background: #00c3e3;
+    color: white;
+    height: auto;
+}
+
+.resultbox h1 {
+    font-size: 2rem;
+}
+.detailLayout {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.resultdetail{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.addIcon {
+    width: 50%;
+    text-align: right;
+}
+
+.addIcon h2 {
+    position: relative;
+    top: 25%;
+    cursor: pointer;
+}
+
+.addIcon h2:hover {
+    color: black;
+}
+.playlistbox {
+    width: 50%;
+    background: #ff4554;
+    color: white;
+}
+
+.playlistinput {
+    background: #ff4554;
+    color: white;
+    padding: 0;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detailLayout {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.resultdetail{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.addIcon {
+    width: 50%;
+    text-align: right;
+}
+
+.addIcon h2 {
+    position: relative;
+    top: 25%;
+    cursor: pointer;
+}
+
+.addIcon h2:hover {
+    color: black;
+}
+
+/*# sourceMappingURL=/app.572fe904.css.map */
